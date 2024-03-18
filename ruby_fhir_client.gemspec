@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'activesupport', '>= 3'
   spec.add_dependency 'addressable', '>= 2.3'
 
-  spec.add_dependency 'ruby_fhir_models', git: 'https://github.com/footholdtech/ruby_fhir_models.git', branch: 'fcm-nil-disable-unused-requirements'
+  spec.add_dependency 'ruby_fhir_models'
   # spec.add_dependency 'fhir_stu3_models', '>= 3.1.1'
   # spec.add_dependency 'fhir_dstu2_models', '>= 1.1.1'
   spec.add_dependency 'nokogiri', '>= 1.10.4'
