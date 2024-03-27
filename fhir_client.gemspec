@@ -24,7 +24,19 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'activesupport', '>= 3'
   spec.add_dependency 'addressable', '>= 2.3'
 
+  # This file specifies the dependencies that are required for the library to work,
+  # sort of like a Gemfile for Gems themselves.
+
+  # In general, the following line would use the publicly available `fhir_models`
+  # Gem, but this is overridden by manually specifying our fork of `fhir_models`
+  # within RMA's gem file. `.gemspec` files do not allow you to specify specific
+  # github repos for external dependencies, so we can't make that declaration here.
+
   spec.add_dependency 'fhir_models', '>= 4.2.1'
+
+  # Since we're not using/requiring the STU3 or DSTU2 models,
+  # there's no need for this library to require them, so they've been commented out
+
   # spec.add_dependency 'fhir_stu3_models', '>= 3.1.1'
   # spec.add_dependency 'fhir_dstu2_models', '>= 1.1.1'
   spec.add_dependency 'nokogiri', '>= 1.10.4'
