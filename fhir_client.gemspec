@@ -24,9 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'activesupport', '>= 3'
   spec.add_dependency 'addressable', '>= 2.3'
 
-  # This file specifies the dependencies that are required for the library to work,
-  # sort of like a Gemfile for Gems themselves.
-
   # In general, the following line would use the publicly available `fhir_models`
   # Gem, but this is overridden by manually specifying our fork of `fhir_models`
   # within RMA's gem file. `.gemspec` files do not allow you to specify specific
