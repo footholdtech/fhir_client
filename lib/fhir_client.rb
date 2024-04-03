@@ -1,6 +1,6 @@
+# Modifications (C) 2024 Foothold Technology
+
 require 'fhir_models'
-require 'fhir_dstu2_models'
-require 'fhir_stu3_models'
 require 'active_support/all'
 
 # Default to INFO level logging for all FHIR namespaced logging. Since there is
