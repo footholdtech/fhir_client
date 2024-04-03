@@ -1,8 +1,4 @@
 require 'fhir_models'
-# disable requiring the following models as they are not used in FCM's FHIR implementation
-# and require extra memory that can cause problems on staging environments
-# require 'fhir_dstu2_models'
-# require 'fhir_stu3_models'
 require 'active_support/all'
 
 # Default to INFO level logging for all FHIR namespaced logging. Since there is
