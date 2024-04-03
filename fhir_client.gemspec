@@ -24,10 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'activesupport', '>= 3'
   spec.add_dependency 'addressable', '>= 2.3'
 
-  # In general, the following line would use the publicly available `fhir_models`
-  # Gem, but this is overridden by manually specifying our fork of `fhir_models`
-  # within RMA's gem file. `.gemspec` files do not allow you to specify specific
-  # github repos for external dependencies, so we can't make that declaration here.
   spec.add_dependency 'fhir_models', '>= 4.2.1'
   spec.add_dependency 'nokogiri', '>= 1.10.4'
   spec.add_dependency 'oauth2', '~> 1.1'
