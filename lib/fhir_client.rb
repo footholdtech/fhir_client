@@ -1,3 +1,5 @@
+# Modifications (C) 2024 Foothold Technology
+
 require 'fhir_models'
 require 'active_support/all'
 
